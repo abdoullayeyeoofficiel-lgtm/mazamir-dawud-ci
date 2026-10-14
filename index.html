@@ -8,6 +8,18 @@
 <link rel="icon" href="https://i.ibb.co/LhD328k1/mazamir-dawud-removebg-preview.png">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/administrateur/";
+        });
+      }
+    });
+  }
+</script>
 </head>
 <body>
 
