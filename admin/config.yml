@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: abdoulayeyeofficial-lgtm/mazamir-dawud-ci
+  name: git-gateway
   branch: main
 
 media_folder: "images"
